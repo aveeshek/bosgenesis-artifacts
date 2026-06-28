@@ -1,0 +1,211 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 1986 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+13 TL
+(MoP - signoz) Tj
+T*
+() Tj
+T*
+(METHOD OF PROCEDURE: SIGNOZ) Tj
+T*
+() Tj
+T*
+(1. DOCUMENT CONTROL) Tj
+T*
+(* Workflow: MoP Generation) Tj
+T*
+(* Namespace: signoz) Tj
+T*
+(* Environment: kubernetes_generic) Tj
+T*
+(* Helm Release: Not selected) Tj
+T*
+(* Status: Draft for human review) Tj
+T*
+() Tj
+T*
+(2. CHANGE SUMMARY) Tj
+T*
+(Generate MoP in both markdown and PDF format so we can fully clone the source namespace) Tj
+T*
+() Tj
+T*
+(3. TARGET NAMESPACE AND ENVIRONMENT) Tj
+T*
+(* Namespace: signoz) Tj
+T*
+(* Environment: kubernetes_generic) Tj
+T*
+() Tj
+T*
+(4. SCOPE AND ASSUMPTIONS) Tj
+T*
+(* Scope is limited to read-only MoP document generation.) Tj
+T*
+(* No Kubernetes or Helm mutation is performed by this workflow.) Tj
+T*
+(* Human approval is required before any execution workflow uses this document.) Tj
+T*
+() Tj
+T*
+(5. SOURCE EVIDENCE) Tj
+T*
+(* k8s-inspector status: blocked) Tj
+T*
+(* helm-manager status: blocked) Tj
+T*
+(* mop-creation-agent status: blocked) Tj
+T*
+() Tj
+T*
+(6. CURRENT STATE SUMMARY) Tj
+T*
+(Evidence was collected from configured MCP adapters when available. Missing adapters are) Tj
+T*
+(listed) Tj
+T*
+(under limitations.) Tj
+T*
+() Tj
+T*
+(7. PRECONDITIONS AND READINESS CHECKS) Tj
+T*
+(* Confirm namespace signoz is the intended target.) Tj
+T*
+(* Confirm Helm release Not selected or select the correct release before execution.) Tj
+T*
+(* Confirm operator has access to required dashboards and rollback evidence.) Tj
+T*
+() Tj
+T*
+(8. RISK ASSESSMENT MATRIX) Tj
+T*
+(| Risk | Impact | Mitigation |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Missing live evidence | Medium | Review MCP limitations before execution. |) Tj
+T*
+(| Namespace mismatch | High | Validate namespace allowlist and owner approval. |) Tj
+T*
+(| Rollback ambiguity | High | Confirm Helm revision and rollback command. |) Tj
+T*
+() Tj
+T*
+(9. IMPLEMENTATION STEPS) Tj
+T*
+(1. Review current namespace and Helm evidence.) Tj
+T*
+(2. Confirm implementation window and stakeholders.) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 1625 >>
+stream
+BT
+/F1 10 Tf
+50 752 Td
+13 TL
+(3. Execute only through a future approved MoP Execution workflow.) Tj
+T*
+() Tj
+T*
+(10. VALIDATION STEPS) Tj
+T*
+(1. Validate workloads and services after execution.) Tj
+T*
+(2. Confirm ingress and service endpoints respond as expected.) Tj
+T*
+(3. Capture post-change evidence for audit.) Tj
+T*
+() Tj
+T*
+(11. ROLLBACK PLAN) Tj
+T*
+(1. Stop execution if validation fails.) Tj
+T*
+(2. Use approved Helm/Kubernetes rollback procedure after human approval.) Tj
+T*
+(3. Re-run validation checks and capture evidence.) Tj
+T*
+() Tj
+T*
+(12. COMMUNICATION PLAN) Tj
+T*
+(* Notify platform owner before execution.) Tj
+T*
+(* Notify stakeholders after validation or rollback.) Tj
+T*
+() Tj
+T*
+(13. APPROVAL AND HUMAN REVIEW NOTES) Tj
+T*
+(* This draft is not an execution approval.) Tj
+T*
+(* Human reviewer must confirm risk, rollback, and implementation steps.) Tj
+T*
+() Tj
+T*
+(14. EXECUTION READINESS DECISION) Tj
+T*
+(Needs review before execution.) Tj
+T*
+() Tj
+T*
+(15. AGENT ACTIVITY AND SAFE REASONING SUMMARIES) Tj
+T*
+(* MoP was generated from selected namespace, user intent, and available MCP evidence.) Tj
+T*
+(* Limitations:) Tj
+T*
+(* k8s-inspector evidence limited: Environment 'kubernetes_generic' is outside the policy) Tj
+T*
+(ODD.; Namespace 'signoz' is outside the policy ODD.) Tj
+T*
+(* helm-manager evidence limited: Environment 'kubernetes_generic' is outside the policy) Tj
+T*
+(ODD.; Namespace 'signoz' is outside the policy ODD.) Tj
+T*
+(* mop-creation-agent evidence limited: Environment 'kubernetes_generic' is outside the) Tj
+T*
+(policy ODD.; Namespace 'signoz' is outside the policy ODD.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000002229 00000 n 
+0000002355 00000 n 
+0000004032 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+4158
+%%EOF
