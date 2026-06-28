@@ -1,0 +1,139 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 4658 >>
+stream
+q 0.985 0.972 0.992 rg 0.00 0.00 612.00 792.00 re f Q
+q 0.880 0.350 0.440 rg 0.00 728.00 242.00 64.00 re f Q
+q 0.320 0.320 0.720 rg 242.00 728.00 370.00 64.00 re f Q
+q 0.910 0.760 0.820 rg 44.00 704.00 524.00 1.20 re f Q
+BT /F2 12.00 Tf 1.000 1.000 1.000 rg 54.00 759.00 Td (Ericsson Autonomous SRE and DevOps Agent) Tj ET
+BT /F1 9.20 Tf 0.980 0.920 0.970 rg 54.00 741.00 Td (MoP - signoz) Tj ET
+BT /F1 8.00 Tf 0.450 0.380 0.580 rg 500.00 34.00 Td (Page 1) Tj ET
+BT /F2 18.00 Tf 0.340 0.190 0.490 rg 54.00 680.00 Td (METHOD OF PROCEDURE: SIGNOZ) Tj ET
+q 0.880 0.410 0.460 RG 0.80 w 54.00 658.00 m 558.00 658.00 l S Q
+q 0.930 0.840 0.910 rg 48.00 629.00 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 633.00 Td (1. DOCUMENT CONTROL) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 614.00 Td (* Workflow: MoP Generation) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 601.00 Td (* Namespace: signoz) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 588.00 Td (* Environment: kubernetes_generic) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 575.00 Td (* Helm Release: Not selected) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 562.00 Td (* Status: Draft for human review) Tj ET
+q 0.930 0.840 0.910 rg 48.00 532.00 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 536.00 Td (2. CHANGE SUMMARY) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 54.00 517.00 Td (Generate MoP in both markdown and PDF format so we can fully clone the source namespace) Tj ET
+q 0.930 0.840 0.910 rg 48.00 486.50 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 490.50 Td (3. TARGET NAMESPACE AND ENVIRONMENT) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 471.50 Td (* Namespace: signoz) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 458.50 Td (* Environment: kubernetes_generic) Tj ET
+q 0.930 0.840 0.910 rg 48.00 428.50 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 432.50 Td (4. SCOPE AND ASSUMPTIONS) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 413.50 Td (* This workflow produces a human-reviewed clone MoP package in Markdown and PDF format.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 400.50 Td (* Evidence collection and document generation are read-only; Kubernetes or Helm mutations are not) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 387.50 Td (performed here.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 374.50 Td (* Human approval is required before any execution workflow uses this document.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 344.50 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 348.50 Td (5. SOURCE EVIDENCE) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 329.50 Td (* k8s-inspector: needs review - Namespace 'signoz' is outside the policy ODD.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 316.50 Td (* helm-manager: needs review - Namespace 'signoz' is outside the policy ODD.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 303.50 Td (* mop-creation-agent: needs review - Namespace 'signoz' is outside the policy ODD.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 273.50 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 277.50 Td (6. CURRENT STATE SUMMARY) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 54.00 258.50 Td (Evidence was collected from configured MCP adapters when available. Missing adapters are listed) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 54.00 245.00 Td (under limitations.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 214.50 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 218.50 Td (7. PRECONDITIONS AND READINESS CHECKS) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 199.50 Td (* Confirm namespace signoz is the intended target.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 186.50 Td (* Confirm Helm release Not selected or select the correct release before execution.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 173.50 Td (* Confirm operator has access to required dashboards and rollback evidence.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 143.50 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 147.50 Td (8. RISK ASSESSMENT MATRIX) Tj ET
+BT /F3 7.30 Tf 0.180 0.160 0.280 rg 60.00 128.50 Td (| Risk | Impact | Mitigation |) Tj ET
+q 0.780 0.670 0.840 RG 0.80 w 54.00 118.50 m 558.00 118.50 l S Q
+BT /F3 7.30 Tf 0.180 0.160 0.280 rg 60.00 106.50 Td (| Missing live evidence | Medium | Review MCP limitations before execution. |) Tj ET
+BT /F3 7.30 Tf 0.180 0.160 0.280 rg 60.00 96.50 Td (| Namespace mismatch | High | Validate namespace allowlist and owner approval. |) Tj ET
+BT /F3 7.30 Tf 0.180 0.160 0.280 rg 60.00 86.50 Td (| Rollback ambiguity | High | Confirm Helm revision and rollback command. |) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3707 >>
+stream
+q 0.985 0.972 0.992 rg 0.00 0.00 612.00 792.00 re f Q
+q 0.880 0.350 0.440 rg 0.00 728.00 242.00 64.00 re f Q
+q 0.320 0.320 0.720 rg 242.00 728.00 370.00 64.00 re f Q
+q 0.910 0.760 0.820 rg 44.00 704.00 524.00 1.20 re f Q
+BT /F2 12.00 Tf 1.000 1.000 1.000 rg 54.00 759.00 Td (Ericsson Autonomous SRE and DevOps Agent) Tj ET
+BT /F1 9.20 Tf 0.980 0.920 0.970 rg 54.00 741.00 Td (MoP - signoz) Tj ET
+BT /F1 8.00 Tf 0.450 0.380 0.580 rg 500.00 34.00 Td (Page 2) Tj ET
+q 0.930 0.840 0.910 rg 48.00 674.00 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 678.00 Td (9. IMPLEMENTATION STEPS) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 659.00 Td (1. Review current namespace and Helm evidence.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 646.00 Td (2. Confirm implementation window and stakeholders.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 633.00 Td (3. Execute only through a future approved MoP Execution workflow.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 603.00 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 607.00 Td (10. VALIDATION STEPS) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 588.00 Td (1. Validate workloads and services after execution.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 575.00 Td (2. Confirm ingress and service endpoints respond as expected.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 562.00 Td (3. Capture post-change evidence for audit.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 532.00 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 536.00 Td (11. ROLLBACK PLAN) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 517.00 Td (1. Stop execution if validation fails.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 504.00 Td (2. Use approved Helm/Kubernetes rollback procedure after human approval.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 491.00 Td (3. Re-run validation checks and capture evidence.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 461.00 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 465.00 Td (12. COMMUNICATION PLAN) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 446.00 Td (* Notify platform owner before execution.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 433.00 Td (* Notify stakeholders after validation or rollback.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 403.00 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 407.00 Td (13. APPROVAL AND HUMAN REVIEW NOTES) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 388.00 Td (* This draft is not an execution approval.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 375.00 Td (* Human reviewer must confirm risk, rollback, and implementation steps.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 345.00 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 349.00 Td (14. EXECUTION READINESS DECISION) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 54.00 330.00 Td (Needs review before execution.) Tj ET
+q 0.930 0.840 0.910 rg 48.00 299.50 516.00 24.00 re f Q
+BT /F2 12.50 Tf 0.290 0.210 0.480 rg 58.00 303.50 Td (15. AGENT ACTIVITY AND SAFE REASONING SUMMARIES) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 284.50 Td (* MoP was generated from selected namespace, user intent, and available MCP evidence.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 271.50 Td (* Limitations:) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 258.50 Td (* k8s-inspector evidence needs review: Namespace 'signoz' is outside the policy ODD.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 245.50 Td (* helm-manager evidence needs review: Namespace 'signoz' is outside the policy ODD.) Tj ET
+BT /F1 9.60 Tf 0.150 0.100 0.260 rg 68.00 232.50 Td (* mop-creation-agent evidence needs review: Namespace 'signoz' is outside the policy ODD.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000334 00000 n 
+0000005044 00000 n 
+0000005190 00000 n 
+0000008949 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+9095
+%%EOF
